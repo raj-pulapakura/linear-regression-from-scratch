@@ -1,5 +1,13 @@
 # 📈 Linear Regression from Scratch
-This is a simple Python implementation of Linear Regression from scratch using NumPy.
+This is a simple Python implementation of Linear Regression from scratch using NumPy. The results of the project can be seen below.
+
+Given `X` (independent variable) and `Y` (dependent variable):
+
+![data](https://github.com/raj-pulapakura/lin-reg-from-scratch/assets/87762282/95f99a07-088d-4cf1-acb4-abe8e671e719)
+
+Linear Regression finds a 'best-fit' regression line to model the relationship between `X` and `Y`:
+
+![data_with_regression_line](https://github.com/raj-pulapakura/lin-reg-from-scratch/assets/87762282/49145ebc-4c5b-43be-a5b2-4e0f02fd0268)
 
 ## 🤔 What is Linear Regression?
 Linear Regression is a popular and widely used statistical method for modeling the relationship between a dependent variable (target) and one or more independent variables (features). It assumes that there is a linear relationship between the features and the target variable. The goal of Linear Regression is to find the best-fit line that represents this relationship and can be used to predict the target variable for new input data.
@@ -37,10 +45,8 @@ MSE = (1/n) * Σ(y - y_pred)^2
 
 Where `n` is the number of data points.
 
-**5. Updating Coefficients**: The goal of Linear Regression is to minimize the error (MSE). We do this by adjusting the coefficients `m` and `b` using an optimization technique known as Gradient Descent. It involves calulating the derivative of the loss with respect to each parameter of the model (`m` and `b`) and using these values to update the parameters. 
+**5. Updating Coefficients**: The goal of Linear Regression is to minimize the error (MSE). We do this by adjusting the coefficients `m` and `b` using an optimization technique known as Gradient Descent. It involves calulating the derivative of the loss with respect to each parameters of the model (`m` and `b`) and using these values to update the parameters. 
 
 **6. Iterative Process**: Steps 3 to 5 are repeated iteratively until the error converges to a minimum.
 
 **7. Making Predictions**: After finding the optimal coefficients `m` and `b`, we can use the equation `y = mx + b` to make predictions for new input data.
-
-## 🎀 Results
